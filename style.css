@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px red solid;
+}
+
+body {
+  background-image: url("landingbk.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 2em;
+  color: whitesmoke;
+}
