@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  border: 1px red solid;
+  border: 1px rgba(244, 111, 111, 0.645) solid;
 }
 
 body {
@@ -14,16 +14,19 @@ body {
 
 .container {
   display: flex;
-  /* display: inline-block; */
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 header {
-  /* margin: 50% auto; */
-
   text-transform: uppercase;
+  font-size: 3em;
+  background-color: rgba(255, 255, 255, 0.163);
+  padding: 1em;
 }
 
-h1 {
-  font-size: 2em;
-  color: whitesmoke;
+header h1 {
+  color: rgb(222, 218, 218);
+  text-shadow: 2px 2px #282626;
 }
