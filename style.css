@@ -12,9 +12,14 @@ body {
   height: 100vh;
 }
 
-header {
+.container {
   display: flex;
-  justify-content: center;
+  /* display: inline-block; */
+}
+
+header {
+  /* margin: 50% auto; */
+
   text-transform: uppercase;
 }
 
