@@ -44,7 +44,6 @@ header h1 {
 button {
   padding: 1.25em;
   border-radius: 15px;
-  border: none;
   background-color: rgba(218, 165, 32, 0.689);
   font-size: 1.1em;
   text-transform: uppercase;
